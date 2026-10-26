@@ -1,0 +1,633 @@
+group,variety,num_reviews,pct
+1,Pinot Noir,9283,9.49
+1,Sangiovese,2153,2.2
+1,Rosé,1910,1.95
+1,Sparkling Blend,1315,1.34
+1,Bordeaux-style White Blend,856,0.87
+1,Gewürztraminer,681,0.7
+1,Carmenère,496,0.51
+1,Gamay,373,0.38
+1,Pinot Blanc,335,0.34
+1,Garganega,209,0.21
+1,Cabernet Blend,188,0.19
+1,Petit Verdot,153,0.16
+1,Pinotage,134,0.14
+1,Grillo,104,0.11
+1,Bonarda,101,0.1
+1,Pinot Bianco,87,0.09
+1,Falanghina,75,0.08
+1,Sagrantino,64,0.07
+1,Malbec-Merlot,60,0.06
+1,Cabernet Sauvignon-Shiraz,54,0.06
+1,Verdelho,53,0.05
+1,Carignan,47,0.05
+1,Spätburgunder,45,0.05
+1,Malbec-Cabernet Sauvignon,43,0.04
+1,Pedro Ximénez,39,0.04
+1,Cabernet Sauvignon-Carmenère,38,0.04
+1,Loureiro,35,0.04
+1,Weissburgunder,33,0.03
+1,Portuguese Sparkling,29,0.03
+1,Graciano,26,0.03
+1,Chenin Blanc-Chardonnay,26,0.03
+1,Picolit,25,0.03
+1,Inzolia,23,0.02
+1,Tocai Friulano,21,0.02
+1,Marsanne-Roussanne,21,0.02
+1,Malvasia Bianca,21,0.02
+1,Orange Muscat,19,0.02
+1,Garnacha Blanca,18,0.02
+1,Roditis,17,0.02
+1,Bobal,15,0.02
+1,Passerina,15,0.02
+1,Plavac Mali,14,0.01
+1,Muskat Ottonel,13,0.01
+1,Tokay,12,0.01
+1,Semillon-Chardonnay,12,0.01
+1,Colombard,12,0.01
+1,Tempranillo-Merlot,11,0.01
+1,Grenache-Shiraz,10,0.01
+1,Viognier-Roussanne,10,0.01
+1,Monastrell-Syrah,9,0.01
+1,Uva di Troia,9,0.01
+1,Syrah-Petite Sirah,9,0.01
+1,Teran,9,0.01
+1,Refosco,8,0.01
+1,Tempranillo Blanco,8,0.01
+1,Verduzzo,8,0.01
+1,Trepat,7,0.01
+1,Muscat Blanc à Petit Grain,7,0.01
+1,Viura-Chardonnay,7,0.01
+1,Viognier-Marsanne,6,0.01
+1,Shiraz-Tempranillo,6,0.01
+1,Nuragus,6,0.01
+1,Syrah-Mourvèdre,5,0.01
+1,Pinot Noir-Gamay,5,0.01
+1,Grenache Blend,5,0.01
+1,Tannat-Cabernet Franc,5,0.01
+1,Ciliegiolo,5,0.01
+1,Savatiano,4,0.0
+1,Shiraz-Malbec,4,0.0
+1,Chenin Blanc-Sauvignon Blanc,4,0.0
+1,Pallagrello Nero,4,0.0
+1,Mavrud,4,0.0
+1,Bual,4,0.0
+1,Malvasia Nera,3,0.0
+1,Apple,3,0.0
+1,Prié Blanc,3,0.0
+1,Cabernet Franc-Carmenère,3,0.0
+1,Sangiovese-Syrah,3,0.0
+1,Fer Servadou,3,0.0
+1,Jaen,3,0.0
+1,Chardonnay-Sauvignon Blanc,3,0.0
+1,Bastardo,3,0.0
+1,Feteascǎ Regalǎ,3,0.0
+1,Durif,3,0.0
+1,Roscetto,2,0.0
+1,Zlahtina,2,0.0
+1,Colorino,2,0.0
+1,Grignolino,2,0.0
+1,País,2,0.0
+1,Argaman,2,0.0
+1,Códega do Larinho,2,0.0
+1,Merlot-Grenache,2,0.0
+1,Magliocco,2,0.0
+1,Morillon,2,0.0
+1,Xinisteri,2,0.0
+1,Veltliner,2,0.0
+1,Tinta Barroca,2,0.0
+1,Syrah-Grenache-Viognier,2,0.0
+1,Tai,1,0.0
+1,Tinta Francisca,1,0.0
+1,Sauvignon Musqué,1,0.0
+1,Trousseau Gris,1,0.0
+1,Vitovska,1,0.0
+1,Zelen,1,0.0
+1,Karasakiz,1,0.0
+1,Macabeo-Gewürztraminer,1,0.0
+1,Malvoisie,1,0.0
+1,Mavroudi,1,0.0
+1,Moscatel de Alejandría,1,0.0
+1,Emir,1,0.0
+1,Franconia,1,0.0
+1,Garnacha-Cabernet,1,0.0
+1,Groppello,1,0.0
+1,Carineña,1,0.0
+1,Chardonnay Weissburgunder,1,0.0
+1,Crespiello,1,0.0
+1,Nielluciu,1,0.0
+1,Petit Meslier,1,0.0
+1,Altesse,1,0.0
+1,Baga-Touriga Nacional,1,0.0
+1,Cabernet Franc-Tempranillo,1,0.0
+1,Albarossa,1,0.0
+1,Portuguiser,1,0.0
+1,Roussanne-Grenache Blanc,1,0.0
+1,Saperavi-Merlot,1,0.0
+1,Sideritis,1,0.0
+2,Chardonnay,9163,9.36
+2,Merlot,3178,3.25
+2,Nebbiolo,1339,1.37
+2,Pinot Gris,899,0.92
+2,Cabernet Franc,883,0.9
+2,Champagne Blend,811,0.83
+2,Chenin Blanc,457,0.47
+2,Albariño,365,0.37
+2,Nero d'Avola,318,0.32
+2,Meritage,202,0.21
+2,Primitivo,186,0.19
+2,Sémillon,144,0.15
+2,Zweigelt,138,0.14
+2,Roussanne,115,0.12
+2,Cabernet Sauvignon-Syrah,97,0.1
+2,Greco,79,0.08
+2,Friulano,76,0.08
+2,Melon,67,0.07
+2,St. Laurent,58,0.06
+2,Alvarinho,57,0.06
+2,Grenache Blanc,52,0.05
+2,Tokaji,46,0.05
+2,Arinto,46,0.05
+2,Grenache-Syrah,43,0.04
+2,Arneis,38,0.04
+2,Sylvaner,38,0.04
+2,Austrian white blend,37,0.04
+2,Alicante Bouschet,32,0.03
+2,Cabernet Sauvignon-Cabernet Franc,28,0.03
+2,Moschofilero,28,0.03
+2,Traminer,25,0.03
+2,Charbono,24,0.02
+2,Welschriesling,24,0.02
+2,Tannat-Cabernet,21,0.02
+2,Provence red blend,21,0.02
+2,Prieto Picudo,20,0.02
+2,Castelão,19,0.02
+2,Shiraz-Grenache,19,0.02
+2,Carignane,17,0.02
+2,Rkatsiteli,15,0.02
+2,Vignoles,14,0.01
+2,Saperavi,14,0.01
+2,Cabernet,13,0.01
+2,Chambourcin,13,0.01
+2,Syrah-Cabernet Sauvignon,12,0.01
+2,Counoise,11,0.01
+2,Garnacha-Syrah,11,0.01
+2,Tempranillo-Shiraz,11,0.01
+2,Trincadeira,10,0.01
+2,Kekfrankos,9,0.01
+2,Pinot Auxerrois,9,0.01
+2,Viognier-Chardonnay,9,0.01
+2,Cesanese d'Affile,9,0.01
+2,Sauvignon Gris,8,0.01
+2,Bical,8,0.01
+2,Feteasca Neagra,8,0.01
+2,Traminette,7,0.01
+2,Grecanico,7,0.01
+2,Portuguese Rosé,7,0.01
+2,Cabernet Sauvignon-Tempranillo,6,0.01
+2,Carignan-Grenache,6,0.01
+2,Dornfelder,6,0.01
+2,Carmenère-Syrah,5,0.01
+2,Vinhão,5,0.01
+2,Muscadel,5,0.01
+2,Syrah-Tempranillo,5,0.01
+2,Chenin Blanc-Viognier,5,0.01
+2,Morio Muskat,4,0.0
+2,Tannat-Merlot,4,0.0
+2,Neuburger,4,0.0
+2,Okuzgozu,4,0.0
+2,Mantonico,4,0.0
+2,Syrah-Merlot,3,0.0
+2,Valdiguié,3,0.0
+2,Malbec-Tempranillo,3,0.0
+2,Avesso,3,0.0
+2,Rolle,3,0.0
+2,Airen,3,0.0
+2,Sauvignon Blanc-Chenin Blanc,3,0.0
+2,Garnacha-Graciano,3,0.0
+2,Lambrusco Grasparossa,3,0.0
+2,Cerceal,3,0.0
+2,Nasco,3,0.0
+2,Feteasca,3,0.0
+2,Sirica,2,0.0
+2,Prokupac,2,0.0
+2,Rivaner,2,0.0
+2,Colombard-Ugni Blanc,2,0.0
+2,Hárslevelü,2,0.0
+2,Pinot Blanc-Chardonnay,2,0.0
+2,Narince,2,0.0
+2,Cserszegi Fűszeres,2,0.0
+2,Merlot-Argaman,2,0.0
+2,Királyleányka,2,0.0
+2,Malvasia-Viura,2,0.0
+2,White Port,2,0.0
+2,Vespaiolo,2,0.0
+2,Tinta Negra Mole,2,0.0
+2,Steen,1,0.0
+2,Tannat-Syrah,1,0.0
+2,Tintilia,1,0.0
+2,Sauvignonasse,1,0.0
+2,Ugni Blanc,1,0.0
+2,Viura-Sauvignon Blanc,1,0.0
+2,Irsai Oliver,1,0.0
+2,Kinali Yapincak,1,0.0
+2,Malbec-Cabernet Franc,1,0.0
+2,Mandilaria,1,0.0
+2,Merlot-Petite Verdot,1,0.0
+2,Moscato di Noto,1,0.0
+2,Enantio,1,0.0
+2,Freisa,1,0.0
+2,Gelber Traminer,1,0.0
+2,Huxelrebe,1,0.0
+2,Carnelian,1,0.0
+2,Chardonnay-Pinot Grigio,1,0.0
+2,Dafni,1,0.0
+2,Orangetraube,1,0.0
+2,Pied de Perdrix,1,0.0
+2,Alvarelhão,1,0.0
+2,Blauburgunder,1,0.0
+2,Cabernet Moravia,1,0.0
+2,Albarín,1,0.0
+2,Premsal,1,0.0
+2,Ruen,1,0.0
+2,Sarba,1,0.0
+3,Cabernet Sauvignon,8272,8.45
+3,Riesling,3585,3.66
+3,Tempranillo,1622,1.66
+3,Shiraz,1254,1.28
+3,Pinot Grigio,831,0.85
+3,Barbera,635,0.65
+3,Tempranillo Blend,485,0.5
+3,Grenache,390,0.4
+3,Moscato,325,0.33
+3,Torrontés,222,0.23
+3,Sauvignon,177,0.18
+3,Cabernet Sauvignon-Merlot,158,0.16
+3,Mourvèdre,125,0.13
+3,Fiano,115,0.12
+3,Monastrell,98,0.1
+3,Viura,84,0.09
+3,Nerello Mascalese,74,0.08
+3,Turbiana,66,0.07
+3,Vernaccia,57,0.06
+3,Shiraz-Viognier,56,0.06
+3,Tinto Fino,52,0.05
+3,Cortese,51,0.05
+3,Ribolla Gialla,43,0.04
+3,Alsace white blend,41,0.04
+3,Austrian Red Blend,40,0.04
+3,Carignano,37,0.04
+3,Petite Verdot,37,0.04
+3,Silvaner,30,0.03
+3,Rosato,30,0.03
+3,Syrah-Cabernet,28,0.03
+3,Cannonau,25,0.03
+3,Lemberger,24,0.02
+3,Furmint,23,0.02
+3,Carricante,23,0.02
+3,Cinsault,21,0.02
+3,Touriga Nacional-Cabernet Sauvignon,20,0.02
+3,Verdejo-Viura,19,0.02
+3,Norton,18,0.02
+3,Corvina,16,0.02
+3,Aligoté,16,0.02
+3,Baga,14,0.01
+3,Nero di Troia,14,0.01
+3,Coda di Volpe,13,0.01
+3,Colombard-Sauvignon Blanc,13,0.01
+3,Pallagrello,12,0.01
+3,Encruzado,11,0.01
+3,Kerner,11,0.01
+3,Muscat Blanc,10,0.01
+3,Merlot-Malbec,10,0.01
+3,Cabernet Sauvignon-Sangiovese,10,0.01
+3,Malvasia Istriana,9,0.01
+3,Syrah-Viognier,9,0.01
+3,Ugni Blanc-Colombard,8,0.01
+3,Perricone,8,0.01
+3,Aragonez,8,0.01
+3,Cabernet Franc-Merlot,8,0.01
+3,Chardonnay-Semillon,8,0.01
+3,Gewürztraminer-Riesling,7,0.01
+3,Aleatico,6,0.01
+3,Malbec-Tannat,6,0.01
+3,Casavecchia,6,0.01
+3,Verduzzo Friulano,6,0.01
+3,Chasselas,6,0.01
+3,Verdejo-Sauvignon Blanc,5,0.01
+3,Mataro,5,0.01
+3,Sauvignon Blanc-Chardonnay,5,0.01
+3,Mauzac,5,0.01
+3,Verdeca,4,0.0
+3,Symphony,4,0.0
+3,Nerello Cappuccio,4,0.0
+3,Chardonnay-Pinot Blanc,4,0.0
+3,Malbec-Bonarda,4,0.0
+3,Shiraz-Pinotage,3,0.0
+3,Trebbiano-Malvasia,3,0.0
+3,Shiraz-Mourvèdre,3,0.0
+3,Braucol,3,0.0
+3,Pugnitello,3,0.0
+3,Zierfandler-Rotgipfler,3,0.0
+3,Roter Traminer,3,0.0
+3,Malagouzia,3,0.0
+3,Favorita,3,0.0
+3,Duras,3,0.0
+3,Garnacha-Monastrell,3,0.0
+3,Elbling,3,0.0
+3,Roviello,2,0.0
+3,Cabernet Franc-Cabernet Sauvignon,2,0.0
+3,Rieslaner,2,0.0
+3,Cariñena-Garnacha,2,0.0
+3,Clairette,2,0.0
+3,Picapoll,2,0.0
+3,Petite Syrah,2,0.0
+3,Incrocio Manzoni,2,0.0
+3,Muscadet,2,0.0
+3,Madeleine Angevine,2,0.0
+3,Marsanne-Viognier,2,0.0
+3,Kadarka,2,0.0
+3,Viognier-Grenache Blanc,2,0.0
+3,Tamjanika,2,0.0
+3,Syrah-Bonarda,1,0.0
+3,Tempranillo-Malbec,1,0.0
+3,Tocai Rosso,1,0.0
+3,Schwartzriesling,1,0.0
+3,Vermentino Nero,1,0.0
+3,Viura-Verdejo,1,0.0
+3,Jacquez,1,0.0
+3,Koshu,1,0.0
+3,Malbec-Petit Verdot,1,0.0
+3,Manzoni,1,0.0
+3,Morava,1,0.0
+3,Moscofilero,1,0.0
+3,Erbaluce,1,0.0
+3,Früburgunder,1,0.0
+3,Gouveio,1,0.0
+3,Cabernet-Shiraz,1,0.0
+3,Catalanesca,1,0.0
+3,Chardonnay-Pinot Gris,1,0.0
+3,Durello,1,0.0
+3,Pardina,1,0.0
+3,Pigato,1,0.0
+3,Asprinio,1,0.0
+3,Bombino Bianco,1,0.0
+3,Cabernet Pfeffer,1,0.0
+3,Pinot Grigio-Chardonnay,1,0.0
+3,Rabigato,1,0.0
+3,Rufete,1,0.0
+3,Sauvignon Blanc-Sauvignon Gris,1,0.0
+4,Red Blend,6485,6.63
+4,Syrah,3663,3.74
+4,Malbec,1968,2.01
+4,Portuguese Red,1441,1.47
+4,Rhône-style Red Blend,1046,1.07
+4,Viognier,859,0.88
+4,Grüner Veltliner,715,0.73
+4,Petite Sirah,584,0.6
+4,Prosecco,354,0.36
+4,Rhône-style White Blend,289,0.3
+4,Verdejo,206,0.21
+4,Dolcetto,191,0.2
+4,Tinta de Toro,141,0.14
+4,Vermentino,138,0.14
+4,Touriga Nacional,119,0.12
+4,Pinot Nero,91,0.09
+4,Tannat,88,0.09
+4,Sherry,71,0.07
+4,Fumé Blanc,69,0.07
+4,Tinto del Pais,57,0.06
+4,Negroamaro,55,0.06
+4,Tempranillo-Cabernet Sauvignon,53,0.05
+4,Sauvignon Blanc-Semillon,49,0.05
+4,Insolia,44,0.04
+4,Xinomavro,42,0.04
+4,Chardonnay-Viognier,40,0.04
+4,Cabernet Sauvignon-Malbec,37,0.04
+4,Malvasia,37,0.04
+4,Moscatel,30,0.03
+4,Syrah-Grenache,30,0.03
+4,Petit Manseng,28,0.03
+4,Zibibbo,25,0.03
+4,Piedirosso,24,0.02
+4,Müller-Thurgau,23,0.02
+4,Catarratto,23,0.02
+4,Rosado,21,0.02
+4,Teroldego,20,0.02
+4,Brachetto,19,0.02
+4,Scheurebe,17,0.02
+4,Gros and Petit Manseng,17,0.02
+4,Auxerrois,16,0.02
+4,Macabeo,14,0.01
+4,Moscato Giallo,14,0.01
+4,Moscadello,13,0.01
+4,Aragonês,12,0.01
+4,Malbec-Syrah,12,0.01
+4,Hondarrabi Zuri,12,0.01
+4,Johannisberg Riesling,11,0.01
+4,Gaglioppo,10,0.01
+4,Merlot-Cabernet,10,0.01
+4,Ruché,10,0.01
+4,Negrette,9,0.01
+4,Grauburgunder,9,0.01
+4,Alfrocheiro,8,0.01
+4,Rotgipfler,8,0.01
+4,Black Muscat,8,0.01
+4,Roussanne-Viognier,8,0.01
+4,Assyrtiko,7,0.01
+4,Trebbiano di Lugana,7,0.01
+4,Tinta Fina,7,0.01
+4,Picpoul,6,0.01
+4,Schiava,6,0.01
+4,Seyval Blanc,6,0.01
+4,Touriga Franca,6,0.01
+4,Monica,5,0.01
+4,Kalecik Karasi,5,0.01
+4,Savagnin,5,0.01
+4,Moscatel Roxo,5,0.01
+4,Blauer Portugieser,4,0.0
+4,Malagousia,4,0.0
+4,Pallagrello Bianco,4,0.0
+4,Pansa Blanca,4,0.0
+4,Macabeo-Chardonnay,4,0.0
+4,Sauvignon Blanc-Verdejo,3,0.0
+4,Maturana,3,0.0
+4,Vilana,3,0.0
+4,Boğazkere,3,0.0
+4,Cabernet Sauvignon-Merlot-Shiraz,3,0.0
+4,Sousão,3,0.0
+4,Muskateller,3,0.0
+4,Loin de l'Oeil,3,0.0
+4,Merlot-Syrah,3,0.0
+4,Angevine,3,0.0
+4,Garnacha-Tempranillo,3,0.0
+4,Debit,3,0.0
+4,Pinot-Chardonnay,2,0.0
+4,Siegerrebe,2,0.0
+4,Pinot Noir-Syrah,2,0.0
+4,Cayuga,2,0.0
+4,Black Monukka,2,0.0
+4,Pineau d'Aunis,2,0.0
+4,Muscat of Alexandria,2,0.0
+4,Doña Blanca,2,0.0
+4,Muscadelle,2,0.0
+4,Meoru,2,0.0
+4,Malbec Blend,2,0.0
+4,Lambrusco di Sorbara,2,0.0
+4,Sercial,2,0.0
+4,Sämling,2,0.0
+4,Syrah-Carignan,1,0.0
+4,Teroldego Rotaliano,1,0.0
+4,Torbato,1,0.0
+4,Segalin,1,0.0
+4,Vidadillo,1,0.0
+4,Xynisteri,1,0.0
+4,Kallmet,1,0.0
+4,Kuntra,1,0.0
+4,Malvar,1,0.0
+4,Maréchal Foch,1,0.0
+4,Moristel,1,0.0
+4,Mtsvane,1,0.0
+4,Espadeiro,1,0.0
+4,Garnacha Blend,1,0.0
+4,Grenache Gris,1,0.0
+4,Caprettone,1,0.0
+4,Chardonel,1,0.0
+4,Chinuri,1,0.0
+4,Muscat Hamburg,1,0.0
+4,Parraleta,1,0.0
+4,Pinela,1,0.0
+4,Athiri,1,0.0
+4,Bukettraube,1,0.0
+4,Cabernet Sauvignon and Tinta Roriz,1,0.0
+4,Pinot Grigio-Sauvignon Blanc,1,0.0
+4,Rebula,1,0.0
+4,Sacy,1,0.0
+4,St. Vincent,1,0.0
+5,Bordeaux-style Red Blend,5176,5.29
+5,Sauvignon Blanc,4037,4.13
+5,Zinfandel,2409,2.46
+5,White Blend,1858,1.9
+5,"Corvina, Rondinella, Molinara",1118,1.14
+5,Sangiovese Grosso,870,0.89
+5,Port,707,0.72
+5,Portuguese White,620,0.63
+5,Glera,342,0.35
+5,Garnacha,261,0.27
+5,Aglianico,258,0.26
+5,Montepulciano,167,0.17
+5,Blaufränkisch,139,0.14
+5,Mencía,122,0.12
+5,Muscat,111,0.11
+5,G-S-M,100,0.1
+5,Marsanne,79,0.08
+5,Agiorgitiko,75,0.08
+5,Godello,68,0.07
+5,Prugnolo Gentile,58,0.06
+5,Shiraz-Cabernet Sauvignon,54,0.06
+5,Semillon-Sauvignon Blanc,54,0.06
+5,Lambrusco,48,0.05
+5,Assyrtico,45,0.05
+5,Merlot-Cabernet Sauvignon,42,0.04
+5,Verdicchio,39,0.04
+5,Vidal Blanc,38,0.04
+5,Trebbiano,36,0.04
+5,Tempranillo-Garnacha,32,0.03
+5,Muscat Canelli,29,0.03
+5,Cabernet Merlot,27,0.03
+5,Frappato,25,0.03
+5,Lagrein,25,0.03
+5,Pecorino,23,0.02
+5,Xarel-lo,22,0.02
+5,Claret,21,0.02
+5,Gelber Muskateller,20,0.02
+5,Fernão Pires,19,0.02
+5,White Riesling,19,0.02
+5,Merlot-Cabernet Franc,16,0.02
+5,Albana,15,0.02
+5,Pinot Meunier,15,0.02
+5,Raboso,14,0.01
+5,Palomino,13,0.01
+5,Carmenère-Cabernet Sauvignon,12,0.01
+5,Gros Manseng,12,0.01
+5,Madeira Blend,12,0.01
+5,Touriga Nacional Blend,11,0.01
+5,Gamay Noir,10,0.01
+5,Roter Veltliner,10,0.01
+5,Antão Vaz,10,0.01
+5,Tinta Roriz,9,0.01
+5,Grenache-Carignan,9,0.01
+5,Grechetto,8,0.01
+5,Vranec,8,0.01
+5,Baco Noir,8,0.01
+5,Cabernet-Syrah,8,0.01
+5,Siria,7,0.01
+5,Mavrodaphne,7,0.01
+5,Chardonnay-Sauvignon,7,0.01
+5,Alicante,6,0.01
+5,Posip,6,0.01
+5,Mission,6,0.01
+5,Susumaniello,5,0.01
+5,Zierfandler,5,0.01
+5,Malvasia Fina,5,0.01
+5,Provence white blend,5,0.01
+5,Mondeuse,5,0.01
+5,Bovale,4,0.0
+5,Vidal,4,0.0
+5,Tokay Pinot Gris,4,0.0
+5,Muscat d'Alexandrie,4,0.0
+5,Marzemino,4,0.0
+5,Robola,4,0.0
+5,Mansois,3,0.0
+5,Alvarinho-Chardonnay,3,0.0
+5,Roussanne-Marsanne,3,0.0
+5,Cabernet Sauvignon Grenache,3,0.0
+5,Sangiovese-Cabernet Sauvignon,3,0.0
+5,Nosiola,3,0.0
+5,Jacquère,3,0.0
+5,Chardonnay-Albariño,3,0.0
+5,Ansonica,3,0.0
+5,Greco Bianco,3,0.0
+5,Pignoletto,3,0.0
+5,St. George,2,0.0
+5,Žilavka,2,0.0
+5,Gragnano,2,0.0
+5,Grenache-Mourvèdre,2,0.0
+5,Petroulianos,2,0.0
+5,Blatina,2,0.0
+5,Muscatel,2,0.0
+5,Merlot-Shiraz,2,0.0
+5,Macabeo-Moscatel,2,0.0
+5,Mazuelo,2,0.0
+5,Malmsey,2,0.0
+5,Lacrima,2,0.0
+5,Tocai,2,0.0
+5,Syrah-Cabernet Franc,2,0.0
+5,Syrah-Malbec,1,0.0
+5,Terret Blanc,1,0.0
+5,Torontel,1,0.0
+5,Shiraz-Merlot,1,0.0
+5,Viognier-Valdiguié,1,0.0
+5,Yapincak,1,0.0
+5,Karalahna,1,0.0
+5,Listán Negro,1,0.0
+5,Malvazija,1,0.0
+5,Mavrotragano,1,0.0
+5,Moscatel Graúdo,1,0.0
+5,Edelzwicker,1,0.0
+5,Forcallà,1,0.0
+5,Garnacha Tintorera,1,0.0
+5,Grolleau,1,0.0
+5,Carignan-Syrah,1,0.0
+5,Chardonelle,1,0.0
+5,Cococciola,1,0.0
+5,Muskat,1,0.0
+5,Pelaverga Piccolo,1,0.0
+5,Pinot Blanc-Pinot Noir,1,0.0
+5,Azal,1,0.0
+5,Cabernet Franc-Malbec,1,0.0
+5,Aidani,1,0.0
+5,Pinotage-Merlot,1,0.0
+5,Romorantin,1,0.0
+5,Sangiovese Cabernet,1,0.0
+5,Silvaner-Traminer,1,0.0
