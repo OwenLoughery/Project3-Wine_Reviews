@@ -1,0 +1,757 @@
+variety,n_reviews,grape,label_type,is_blend,color,category,reviewed
+Pinot Noir,16658,Pinot Noir,grape,False,red,still,True
+Chardonnay,15640,Chardonnay,grape,False,white,still,True
+Cabernet Sauvignon,13274,Cabernet Sauvignon,grape,False,red,still,True
+Red Blend,11226,,blend,True,red,still,True
+Bordeaux-style Red Blend,9008,,blend,True,red,still,True
+Sauvignon Blanc,6815,Sauvignon Blanc,grape,False,white,still,True
+Riesling,6614,Riesling,grape,False,white,still,True
+Syrah,5863,Syrah,grape,False,red,still,True
+Merlot,4757,Merlot,grape,False,red,still,True
+Rosé,3920,,style,False,rosé,still,True
+Zinfandel,3810,Zinfandel,grape,False,red,still,True
+Sangiovese,3636,Sangiovese,grape,False,red,still,True
+Malbec,3446,Malbec,grape,False,red,still,True
+Nebbiolo,3126,Nebbiolo,grape,False,red,still,True
+White Blend,3112,,blend,True,white,still,True
+Portuguese Red,2903,Portuguese Red,regional,False,red,still,True
+Sparkling Blend,2623,,style,False,,sparkling,True
+Tempranillo,2501,Tempranillo,grape,False,red,still,True
+Rhône-style Red Blend,1870,,blend,True,red,still,True
+Champagne Blend,1813,,style,False,,sparkling,True
+Pinot Gris,1740,Pinot Gris,grape,False,white,still,True
+Shiraz,1685,Syrah,grape,False,red,still,True
+Cabernet Franc,1670,Cabernet Franc,grape,False,red,still,True
+Grüner Veltliner,1515,Grüner Veltliner,grape,False,white,still,True
+Bordeaux-style White Blend,1445,,blend,True,white,still,True
+Pinot Grigio,1433,Pinot Gris,grape,False,white,still,True
+Viognier,1418,Viognier,grape,False,white,still,True
+Portuguese White,1313,Portuguese White,regional,False,white,still,True
+"Corvina, Rondinella, Molinara",1263,,blend,True,red,still,True
+Gewürztraminer,1257,Gewürztraminer,grape,False,white,still,True
+Sangiovese Grosso,1088,Sangiovese,grape,False,red,still,True
+Port,1086,,style,False,red,dessert,True
+Gamay,1084,Gamay,grape,False,red,still,True
+Petite Sirah,1003,Petite Sirah,grape,False,red,still,True
+Barbera,942,Barbera,grape,False,red,still,True
+Glera,830,Glera,grape,False,white,sparkling,True
+Tempranillo Blend,817,,blend,True,red,still,True
+Chenin Blanc,809,Chenin Blanc,grape,False,white,still,True
+Carmenère,799,Carmenère,grape,False,red,still,True
+Grenache,789,Grenache,grape,False,red,still,True
+Albariño,630,Albariño,grape,False,white,still,True
+Pinot Blanc,547,Pinot Blanc,grape,False,white,still,True
+Rhône-style White Blend,521,,blend,True,white,still,True
+Nero d'Avola,478,Nero d'Avola,grape,False,red,still,True
+Moscato,465,Muscat,grape,False,white,still,True
+Aglianico,459,Aglianico,grape,False,red,still,True
+Prosecco,439,Glera,grape,False,white,sparkling,True
+Garnacha,426,Grenache,grape,False,red,still,True
+Verdejo,368,Verdejo,grape,False,white,still,True
+Garganega,361,Garganega,grape,False,white,still,True
+Sauvignon,359,Sauvignon Blanc,grape,False,white,still,True
+Torrontés,348,Torrontés,grape,False,white,still,True
+Meritage,347,,blend,True,red,still,True
+Petit Verdot,313,Petit Verdot,grape,False,red,still,True
+Primitivo,289,Zinfandel,grape,False,red,still,True
+Blaufränkisch,282,Blaufränkisch,grape,False,red,still,True
+Melon,281,Melon,grape,False,white,still,True
+Montepulciano,279,Montepulciano,grape,False,red,still,True
+Vermentino,276,Vermentino,grape,False,white,still,True
+Mourvèdre,272,Mourvèdre,grape,False,red,still,True
+Dolcetto,261,Dolcetto,grape,False,red,still,True
+Zweigelt,244,Zweigelt,grape,False,red,still,True
+Touriga Nacional,242,Touriga Nacional,grape,False,red,still,True
+Cabernet Blend,225,,blend,True,red,still,True
+Sémillon,224,Sémillon,grape,False,white,still,True
+Cabernet Sauvignon-Merlot,223,,blend,True,red,still,False
+Tinta de Toro,223,Tempranillo,grape,False,red,still,True
+G-S-M,221,,blend,True,red,still,True
+Mencía,221,Mencía,grape,False,red,still,True
+Roussanne,212,Roussanne,grape,False,white,still,True
+Pinotage,208,Pinotage,grape,False,red,still,True
+Tannat,205,Tannat,grape,False,red,still,True
+Pinot Nero,199,Pinot Noir,grape,False,red,still,True
+Muscat,185,Muscat,grape,False,white,still,True
+Pinot Bianco,183,Pinot Blanc,grape,False,white,still,True
+Fiano,177,Fiano,grape,False,white,still,True
+Verdicchio,168,Verdicchio,grape,False,white,still,True
+Monastrell,164,Mourvèdre,grape,False,red,still,True
+Alvarinho,160,Albariño,grape,False,white,still,True
+Grillo,152,Grillo,grape,False,white,still,True
+Bonarda,151,Bonarda,grape,False,red,still,True
+Vernaccia,148,Vernaccia,grape,False,white,still,True
+Turbiana,148,Turbiana,grape,False,white,still,True
+Friulano,146,Friulano,grape,False,white,still,True
+Cabernet Sauvignon-Syrah,146,,blend,True,red,still,False
+Grenache Blanc,145,Grenache Blanc,grape,False,white,still,True
+Viura,145,Viura,grape,False,white,still,True
+Nerello Mascalese,136,Nerello Mascalese,grape,False,red,still,True
+Greco,131,Greco,grape,False,white,still,True
+Sagrantino,128,Sagrantino,grape,False,red,still,True
+Sherry,123,,style,False,white,dessert,True
+Marsanne,118,Marsanne,grape,False,white,still,True
+Fumé Blanc,116,Sauvignon Blanc,grape,False,white,still,True
+Falanghina,111,Falanghina,grape,False,white,still,True
+St. Laurent,110,St. Laurent,grape,False,red,still,True
+Tinto Fino,110,Tempranillo,grape,False,red,still,True
+Malbec-Merlot,108,,blend,True,red,still,False
+Godello,105,Godello,grape,False,white,still,True
+Negroamaro,104,Negroamaro,grape,False,red,still,True
+Agiorgitiko,99,Agiorgitiko,grape,False,red,still,True
+Arneis,99,Arneis,grape,False,white,still,True
+Rosato,98,,style,False,rosé,still,True
+Sauvignon Blanc-Semillon,93,,blend,True,white,still,False
+Cortese,91,Cortese,grape,False,white,still,True
+Ribolla Gialla,91,Ribolla Gialla,grape,False,white,still,True
+Carignan,91,Carignan,grape,False,red,still,True
+Verdelho,90,Verdelho,grape,False,white,still,True
+Arinto,89,Arinto,grape,False,white,still,True
+Semillon-Sauvignon Blanc,87,,blend,True,white,still,False
+Lagrein,86,Lagrein,grape,False,red,still,True
+Spätburgunder,84,Pinot Noir,grape,False,red,still,True
+Austrian white blend,80,,blend,True,white,still,True
+Shiraz-Cabernet Sauvignon,79,,blend,True,red,still,False
+Austrian Red Blend,79,,blend,True,red,still,True
+Tempranillo-Cabernet Sauvignon,77,,blend,True,red,still,False
+Rosado,76,,style,False,rosé,still,True
+Prugnolo Gentile,75,Sangiovese,grape,False,red,still,True
+Shiraz-Viognier,74,,blend,True,red,still,False
+Malbec-Cabernet Sauvignon,72,,blend,True,red,still,False
+Grenache-Syrah,71,,blend,True,red,still,False
+Syrah-Grenache,70,,blend,True,red,still,False
+Cabernet Sauvignon-Shiraz,70,,blend,True,red,still,False
+Alsace white blend,69,,blend,True,white,still,True
+Moscatel,69,Moscatel,grape,False,white,dessert,True
+Portuguese Sparkling,66,,style,False,,sparkling,True
+Lambrusco,66,Lambrusco,grape,False,red,sparkling,True
+Merlot-Cabernet Sauvignon,66,,blend,True,red,still,False
+Vidal Blanc,64,Vidal Blanc,grape,False,white,still,True
+Petit Manseng,63,Petit Manseng,grape,False,white,still,True
+Assyrtico,63,Assyrtiko,grape,False,white,still,True
+Alicante Bouschet,63,Alicante Bouschet,grape,False,red,still,True
+Tinto del Pais,63,Tempranillo,grape,False,red,still,True
+Trebbiano,62,Trebbiano,grape,False,white,still,True
+Weissburgunder,61,Pinot Blanc,grape,False,white,still,True
+Cabernet Sauvignon-Carmenère,60,,blend,True,red,still,False
+Furmint,58,Furmint,grape,False,white,still,True
+Pedro Ximénez,58,Pedro Ximénez,grape,False,white,dessert,True
+Malvasia,56,Malvasia,grape,False,white,still,True
+Provence red blend,55,,blend,True,red,still,True
+Sylvaner,54,Sylvaner,grape,False,white,still,True
+Muscat Canelli,54,Muscat,grape,False,white,still,True
+Pecorino,53,Pecorino,grape,False,white,still,True
+Gros and Petit Manseng,53,,blend,True,white,still,True
+Silvaner,52,Sylvaner,grape,False,white,still,True
+Chardonnay-Viognier,52,,blend,True,white,still,False
+Graciano,51,Graciano,grape,False,red,still,True
+Insolia,51,Insolia,grape,False,white,still,True
+Tokaji,51,,style,False,white,dessert,True
+Xinomavro,50,Xinomavro,grape,False,red,still,True
+Müller-Thurgau,49,Müller-Thurgau,grape,False,white,still,True
+Lemberger,48,Blaufränkisch,grape,False,red,still,True
+Cabernet Sauvignon-Malbec,47,,blend,True,red,still,False
+Moschofilero,47,Moschofilero,grape,False,white,still,True
+Frappato,46,Frappato,grape,False,red,still,True
+Cinsault,46,Cinsault,grape,False,red,still,True
+Traminer,46,Traminer,grape,False,white,still,True
+Pinot Meunier,46,Pinot Meunier,grape,False,red,still,True
+Petite Verdot,46,Petit Verdot,grape,False,red,still,True
+Loureiro,46,Loureiro,grape,False,white,still,True
+Chenin Blanc-Chardonnay,44,,blend,True,white,still,False
+Claret,44,,blend,True,red,still,True
+Carignano,44,Carignan,grape,False,red,still,True
+Tempranillo-Garnacha,44,,blend,True,red,still,False
+Cannonau,42,Grenache,grape,False,red,still,True
+Gelber Muskateller,42,Muscat,grape,False,white,still,True
+Fernão Pires,42,Fernão Pires,grape,False,white,still,True
+Carricante,41,Carricante,grape,False,white,still,True
+Saperavi,40,Saperavi,grape,False,red,still,True
+Charbono,39,Charbono,grape,False,red,still,True
+Encruzado,39,Encruzado,grape,False,white,still,True
+Cabernet Sauvignon-Cabernet Franc,39,,blend,True,red,still,False
+Zibibbo,38,Zibibbo,grape,False,white,still,True
+Castelão,38,Castelão,grape,False,red,still,True
+Syrah-Cabernet,37,,blend,True,red,still,False
+Welschriesling,37,Welschriesling,grape,False,white,still,True
+Syrah-Cabernet Sauvignon,37,,blend,True,red,still,False
+Teroldego,36,Teroldego,grape,False,red,still,True
+Tocai Friulano,36,Friulano,grape,False,white,still,True
+Carignane,36,Carignan,grape,False,red,still,True
+Cabernet Merlot,35,,blend,True,red,still,True
+Inzolia,34,Insolia,grape,False,white,still,True
+Garnacha Blanca,34,Grenache Blanc,grape,False,white,still,True
+Tannat-Cabernet,33,,blend,True,red,still,False
+Scheurebe,33,Scheurebe,grape,False,white,still,True
+Baga,33,Baga,grape,False,red,still,True
+Merlot-Cabernet Franc,33,,blend,True,red,still,False
+Aligoté,33,Aligoté,grape,False,white,still,True
+Touriga Nacional-Cabernet Sauvignon,33,,blend,True,red,still,False
+Picolit,33,Picolit,grape,False,white,dessert,True
+Catarratto,32,Catarratto,grape,False,white,still,True
+Xarel-lo,32,Xarel-lo,grape,False,white,still,True
+Rkatsiteli,32,Rkatsiteli,grape,False,white,still,True
+Piedirosso,32,Piedirosso,grape,False,red,still,True
+Marsanne-Roussanne,30,,blend,True,white,still,False
+Provence white blend,30,,blend,True,white,still,True
+Auxerrois,30,Auxerrois,grape,False,white,still,True
+Albana,30,Albana,grape,False,white,still,True
+Orange Muscat,30,Orange Muscat,grape,False,white,still,True
+White Riesling,29,Riesling,grape,False,white,still,True
+Dornfelder,28,Dornfelder,grape,False,red,still,True
+Colombard,27,Colombard,grape,False,white,still,True
+Shiraz-Grenache,27,,blend,True,red,still,False
+Macabeo,27,Viura,grape,False,white,still,True
+Kerner,26,Kerner,grape,False,white,still,True
+Malvasia Bianca,26,Malvasia,grape,False,white,still,True
+Corvina,26,Corvina,grape,False,red,still,True
+Passerina,26,Passerina,grape,False,white,still,True
+Bobal,26,Bobal,grape,False,red,still,True
+Muskat Ottonel,25,Muskat Ottonel,grape,False,white,still,True
+Gros Manseng,25,Gros Manseng,grape,False,white,still,True
+Jacquère,24,Jacquère,grape,False,white,still,True
+Trincadeira,24,Trincadeira,grape,False,red,still,True
+Savagnin,23,Savagnin,grape,False,white,still,True
+Monastrell-Syrah,23,,blend,True,red,still,False
+Gamay Noir,23,Gamay,grape,False,red,still,True
+Palomino,23,Palomino,grape,False,white,dessert,True
+Prieto Picudo,23,Prieto Picudo,grape,False,red,still,True
+Verdejo-Viura,22,,blend,True,white,still,False
+Touriga Nacional Blend,22,,blend,True,red,still,True
+Rotgipfler,22,Rotgipfler,grape,False,white,still,True
+Schiava,22,Schiava,grape,False,red,still,True
+Colombard-Sauvignon Blanc,22,,blend,True,white,still,False
+Coda di Volpe,22,Coda di Volpe,grape,False,white,still,True
+Hondarrabi Zuri,22,Hondarrabi Zuri,grape,False,white,still,True
+Cabernet Franc-Merlot,21,,blend,True,red,still,False
+Malbec-Syrah,21,,blend,True,red,still,False
+Norton,21,Norton,grape,False,red,still,True
+Moscato Giallo,21,Muscat,grape,False,white,still,True
+Nero di Troia,20,Nero di Troia,grape,False,red,still,True
+Syrah-Petite Sirah,20,,blend,True,red,still,False
+Negrette,20,Negrette,grape,False,red,still,True
+Brachetto,20,Brachetto,grape,False,red,still,True
+Gaglioppo,20,Gaglioppo,grape,False,red,still,True
+Antão Vaz,19,Antão Vaz,grape,False,white,still,True
+Chambourcin,19,Chambourcin,grape,False,red,still,True
+Lambrusco di Sorbara,19,Lambrusco,grape,False,red,sparkling,True
+Plavac Mali,19,Plavac Mali,grape,False,red,still,True
+Johannisberg Riesling,19,Riesling,grape,False,white,still,True
+Pinot Noir-Gamay,18,,blend,True,red,still,False
+Assyrtiko,18,Assyrtiko,grape,False,white,still,True
+Seyval Blanc,18,Seyval Blanc,grape,False,white,still,True
+Sauvignon Gris,18,Sauvignon Gris,grape,False,white,still,True
+Picpoul,18,Picpoul,grape,False,white,still,True
+Lambrusco Grasparossa,18,Lambrusco,grape,False,red,sparkling,True
+Alfrocheiro,18,Alfrocheiro,grape,False,red,still,True
+Counoise,18,Counoise,grape,False,red,still,True
+Syrah-Viognier,17,,blend,True,red,still,False
+Vignoles,17,Vignoles,grape,False,white,still,True
+Roter Veltliner,17,Roter Veltliner,grape,False,white,still,True
+Roditis,17,Roditis,grape,False,white,still,True
+Roussanne-Viognier,17,,blend,True,white,still,False
+Mondeuse,17,Mondeuse,grape,False,red,still,True
+Grechetto,17,Grechetto,grape,False,white,still,True
+Syrah-Mourvèdre,17,,blend,True,red,still,False
+Grenache-Carignan,17,,blend,True,red,still,False
+Grauburgunder,17,Pinot Gris,grape,False,white,still,True
+Garnacha-Syrah,17,,blend,True,red,still,False
+Tempranillo-Merlot,16,,blend,True,red,still,False
+Viura-Chardonnay,16,,blend,True,white,still,False
+Tinta Roriz,16,Tempranillo,grape,False,red,still,True
+Cabernet Franc-Cabernet Sauvignon,16,,blend,True,red,still,False
+Cabernet-Syrah,16,,blend,True,red,still,False
+Raboso,16,Raboso,grape,False,red,still,True
+Muscat Blanc,16,Muscat,grape,False,white,still,True
+Baco Noir,16,Baco Noir,grape,False,red,still,True
+Carmenère-Cabernet Sauvignon,16,,blend,True,red,still,False
+Cabernet,16,,ambiguous,False,red,still,True
+Zierfandler,15,Zierfandler,grape,False,white,still,True
+Bical,15,Bical,grape,False,white,still,True
+Malbec-Tannat,15,,blend,True,red,still,False
+Aragonês,15,Tempranillo,grape,False,red,still,True
+Cabernet Sauvignon-Tempranillo,15,,blend,True,red,still,False
+Black Muscat,15,Black Muscat,grape,False,red,still,True
+Portuguese Rosé,15,,style,False,rosé,still,True
+Semillon-Chardonnay,15,,blend,True,white,still,False
+Viognier-Chardonnay,14,,blend,True,white,still,False
+Cabernet Sauvignon-Sangiovese,14,,blend,True,red,still,False
+Pansa Blanca,14,Pansa Blanca,unreviewed,False,,,False
+Tinta Fina,14,Tempranillo,grape,False,red,still,True
+Pallagrello,14,Pallagrello,unreviewed,False,,,False
+Uva di Troia,14,Uva di Troia,unreviewed,False,,,False
+Merlot-Cabernet,14,,blend,True,red,still,False
+Tannat-Cabernet Franc,14,,blend,True,red,still,False
+Ugni Blanc-Colombard,13,,blend,True,white,still,False
+Merlot-Malbec,13,,blend,True,red,still,False
+Refosco,13,Refosco,unreviewed,False,,,False
+Moscadello,13,Moscadello,unreviewed,False,,,False
+Kalecik Karasi,13,Kalecik Karasi,unreviewed,False,,,False
+Pinot Auxerrois,13,Auxerrois,grape,False,white,still,True
+Trepat,13,Trepat,unreviewed,False,,,False
+Tokay,13,,ambiguous,False,white,,True
+Kekfrankos,13,Blaufränkisch,grape,False,red,still,True
+Ruché,12,Ruché,unreviewed,False,,,False
+Traminette,12,Traminette,unreviewed,False,,,False
+Aragonez,12,Tempranillo,grape,False,red,still,True
+Perricone,12,Perricone,unreviewed,False,,,False
+Madeira Blend,12,,style,False,white,dessert,True
+Viognier-Roussanne,12,,blend,True,white,still,False
+Tannat-Merlot,12,,blend,True,red,still,False
+Tempranillo-Shiraz,12,,blend,True,red,still,False
+Mataro,12,Mourvèdre,grape,False,red,still,True
+Grenache-Shiraz,12,,blend,True,red,still,False
+Vidal,11,Vidal Blanc,grape,False,white,still,True
+Malbec-Cabernet Franc,11,,blend,True,red,still,False
+Malagousia,11,Malagousia,unreviewed,False,,,False
+Tocai,11,Friulano,grape,False,white,still,True
+Siria,11,Siria,unreviewed,False,,,False
+Sauvignon Blanc-Chardonnay,11,,blend,True,white,still,False
+Teran,11,Teran,unreviewed,False,,,False
+Chenin Blanc-Viognier,11,,blend,True,white,still,False
+Muscadelle,10,Muscadelle,unreviewed,False,,,False
+Feteasca Neagra,10,Feteasca Neagra,unreviewed,False,,,False
+Gewürztraminer-Riesling,10,,blend,True,white,still,False
+Malvasia Istriana,10,Malvasia Istriana,unreviewed,False,,,False
+Chardonnay-Sauvignon,10,,blend,True,white,still,False
+Mavrodaphne,10,Mavrodaphne,unreviewed,False,,,False
+Grecanico,10,Grecanico,unreviewed,False,,,False
+Tempranillo Blanco,10,Tempranillo Blanco,unreviewed,False,,,False
+Bual,10,Bual,unreviewed,False,,,False
+Trebbiano di Lugana,10,Trebbiano di Lugana,unreviewed,False,,,False
+Chardonnay-Semillon,9,,blend,True,white,still,False
+Mauzac,9,Mauzac,unreviewed,False,,,False
+Neuburger,9,Neuburger,unreviewed,False,,,False
+Chasselas,9,Chasselas,unreviewed,False,,,False
+Grenache Blend,9,,blend,True,red,still,True
+Mantonico,9,Mantonico,unreviewed,False,,,False
+Touriga Franca,9,Touriga Franca,unreviewed,False,,,False
+Cesanese d'Affile,9,Cesanese d'Affile,unreviewed,False,,,False
+Loin de l'Oeil,9,Loin de l'Oeil,unreviewed,False,,,False
+Jaen,9,Jaen,unreviewed,False,,,False
+Nuragus,9,Nuragus,unreviewed,False,,,False
+Carignan-Grenache,8,,blend,True,red,still,False
+Garnacha Tintorera,8,Alicante Bouschet,grape,False,red,still,True
+Verduzzo,8,Verduzzo,unreviewed,False,,,False
+Manzoni,8,Manzoni,unreviewed,False,,,False
+Nosiola,8,Nosiola,unreviewed,False,,,False
+Aleatico,8,Aleatico,unreviewed,False,,,False
+Durella,8,Durella,unreviewed,False,,,False
+Posip,8,Posip,unreviewed,False,,,False
+Susumaniello,8,Susumaniello,unreviewed,False,,,False
+Vranec,8,Vranec,unreviewed,False,,,False
+Mavrud,8,Mavrud,unreviewed,False,,,False
+Verduzzo Friulano,8,Verduzzo Friulano,unreviewed,False,,,False
+Syrah-Tempranillo,8,,blend,True,red,still,False
+Alicante,8,Alicante Bouschet,grape,False,red,still,True
+Carmenère-Syrah,8,,blend,True,red,still,False
+Okuzgozu,8,Okuzgozu,unreviewed,False,,,False
+Verdejo-Sauvignon Blanc,8,,blend,True,white,still,False
+Savatiano,8,Savatiano,unreviewed,False,,,False
+Monica,7,Monica,unreviewed,False,,,False
+Sousão,7,Sousão,unreviewed,False,,,False
+Avesso,7,Avesso,unreviewed,False,,,False
+Duras,7,Duras,unreviewed,False,,,False
+Rieslaner,7,Rieslaner,unreviewed,False,,,False
+Trebbiano Spoletino,7,Trebbiano Spoletino,unreviewed,False,,,False
+Morillon,7,Chardonnay,grape,False,white,still,True
+Moscatel Roxo,7,Moscatel Roxo,unreviewed,False,,,False
+Sangiovese-Cabernet Sauvignon,7,,blend,True,red,still,False
+Colombard-Ugni Blanc,7,,blend,True,white,still,False
+Ciliegiolo,7,Ciliegiolo,unreviewed,False,,,False
+Narince,7,Narince,unreviewed,False,,,False
+Casavecchia,7,Casavecchia,unreviewed,False,,,False
+Roussanne-Marsanne,7,,blend,True,white,still,False
+Mission,7,Mission,unreviewed,False,,,False
+Malbec-Bonarda,7,,blend,True,red,still,False
+Roter Traminer,7,Roter Traminer,unreviewed,False,,,False
+Shiraz-Tempranillo,7,,blend,True,red,still,False
+Vilana,6,Vilana,unreviewed,False,,,False
+Tannat-Syrah,6,,blend,True,red,still,False
+Prié Blanc,6,Prié Blanc,unreviewed,False,,,False
+Maturana,6,Maturana,unreviewed,False,,,False
+Altesse,6,Altesse,unreviewed,False,,,False
+Blanc du Bois,6,Blanc du Bois,unreviewed,False,,,False
+Syrah-Merlot,6,,blend,True,red,still,False
+Nascetta,6,Nascetta,unreviewed,False,,,False
+Valdiguié,6,Valdiguié,unreviewed,False,,,False
+Chenin Blanc-Sauvignon Blanc,6,,blend,True,white,still,False
+Marzemino,6,Marzemino,unreviewed,False,,,False
+Tinta Barroca,6,Tinta Barroca,unreviewed,False,,,False
+Sämling,6,Sämling,unreviewed,False,,,False
+Nerello Cappuccio,6,Nerello Cappuccio,unreviewed,False,,,False
+Pinot-Chardonnay,6,,blend,True,,still,False
+Chardonnay-Pinot Blanc,6,,blend,True,white,still,False
+Greco Bianco,6,Greco Bianco,unreviewed,False,,,False
+Braucol,6,Braucol,unreviewed,False,,,False
+Shiraz-Malbec,6,,blend,True,red,still,False
+Macabeo-Chardonnay,6,,blend,True,white,still,False
+Trousseau,6,Trousseau,unreviewed,False,,,False
+Sauvignon Blanc-Verdejo,6,,blend,True,white,still,False
+Viognier-Marsanne,6,,blend,True,white,still,False
+Verdeca,6,Verdeca,unreviewed,False,,,False
+Muscadel,6,Muscadel,unreviewed,False,,,False
+Cerceal,5,Cerceal,unreviewed,False,,,False
+Cabernet Franc-Carmenère,5,,blend,True,red,still,False
+Magliocco,5,Magliocco,unreviewed,False,,,False
+Kisi,5,Kisi,unreviewed,False,,,False
+Feteascǎ Regalǎ,5,Feteascǎ Regalǎ,unreviewed,False,,,False
+Symphony,5,Symphony,unreviewed,False,,,False
+Edelzwicker,5,Edelzwicker,unreviewed,False,,,False
+Zierfandler-Rotgipfler,5,,blend,True,white,still,False
+Chardonnay-Sauvignon Blanc,5,,blend,True,white,still,False
+Muskateller,5,Muskateller,unreviewed,False,,,False
+Pallagrello Bianco,5,Pallagrello Bianco,unreviewed,False,,,False
+Mansois,5,Mansois,unreviewed,False,,,False
+Grenache-Mourvèdre,5,,blend,True,red,still,False
+Sauvignon Blanc-Chenin Blanc,5,,blend,True,white,still,False
+Mtsvane,5,Mtsvane,unreviewed,False,,,False
+Blauer Portugieser,5,Blauer Portugieser,unreviewed,False,,,False
+Carineña,5,Carignan,grape,False,red,still,True
+Sangiovese-Syrah,5,,blend,True,red,still,False
+Vinhão,5,Vinhão,unreviewed,False,,,False
+Malvasia Nera,5,Malvasia Nera,unreviewed,False,,,False
+Bovale,5,Bovale,unreviewed,False,,,False
+Robola,5,Robola,unreviewed,False,,,False
+Alvarinho-Chardonnay,5,,blend,True,white,still,False
+Garnacha-Tempranillo,5,,blend,True,red,still,False
+Boğazkere,5,Boğazkere,unreviewed,False,,,False
+Ansonica,5,Ansonica,unreviewed,False,,,False
+Durif,5,Petite Sirah,grape,False,red,still,True
+Nasco,5,Nasco,unreviewed,False,,,False
+Malvasia Fina,5,Malvasia Fina,unreviewed,False,,,False
+Muscat Blanc à Petit Grain,5,Muscat Blanc à Petit Grain,unreviewed,False,,,False
+Pugnitello,4,Pugnitello,unreviewed,False,,,False
+Marselan,4,Marselan,unreviewed,False,,,False
+Clairette,4,Clairette,unreviewed,False,,,False
+Hárslevelü,4,Hárslevelü,unreviewed,False,,,False
+Veltliner,4,Veltliner,unreviewed,False,,,False
+Mazuelo,4,Carignan,grape,False,red,still,True
+Debit,4,Debit,unreviewed,False,,,False
+Muscat d'Alexandrie,4,Muscat d'Alexandrie,unreviewed,False,,,False
+Timorasso,4,Timorasso,unreviewed,False,,,False
+Pignoletto,4,Pignoletto,unreviewed,False,,,False
+Cabernet Sauvignon-Merlot-Shiraz,4,,blend,True,red,still,False
+Sciaccerellu,4,Sciaccerellu,unreviewed,False,,,False
+Muscat Hamburg,4,Muscat Hamburg,unreviewed,False,,,False
+Fer Servadou,4,Fer Servadou,unreviewed,False,,,False
+Cabernet Franc-Malbec,4,,blend,True,red,still,False
+Pallagrello Nero,4,Pallagrello Nero,unreviewed,False,,,False
+Códega do Larinho,4,Códega do Larinho,unreviewed,False,,,False
+Viosinho,4,Viosinho,unreviewed,False,,,False
+Muscat of Alexandria,4,Muscat of Alexandria,unreviewed,False,,,False
+Rolle,4,Rolle,unreviewed,False,,,False
+Jacquez,4,Jacquez,unreviewed,False,,,False
+Syrah-Carignan,4,,blend,True,red,still,False
+Pinot Blanc-Chardonnay,4,,blend,True,white,still,False
+Bastardo,4,Bastardo,unreviewed,False,,,False
+Malagouzia,4,Malagouzia,unreviewed,False,,,False
+Merlot-Syrah,4,,blend,True,red,still,False
+Morio Muskat,4,Morio Muskat,unreviewed,False,,,False
+Babić,4,Babić,unreviewed,False,,,False
+Tokay Pinot Gris,4,Pinot Gris,grape,False,white,still,True
+Favorita,4,Favorita,unreviewed,False,,,False
+Chinuri,3,Chinuri,unreviewed,False,,,False
+Muscat Blanc à Petits Grains,3,Muscat Blanc à Petits Grains,unreviewed,False,,,False
+Marsanne-Viognier,3,,blend,True,white,still,False
+White Port,3,,style,False,white,dessert,True
+Muskat,3,Muskat,unreviewed,False,,,False
+Asprinio,3,Asprinio,unreviewed,False,,,False
+Grenache Noir,3,Grenache,grape,False,red,still,True
+Mourvèdre-Syrah,3,,blend,True,red,still,False
+Merlot-Tannat,3,,blend,True,red,still,False
+Melnik,3,Melnik,unreviewed,False,,,False
+Siegerrebe,3,Siegerrebe,unreviewed,False,,,False
+Sangiovese Cabernet,3,Sangiovese Cabernet,unreviewed,False,,,False
+Argaman,3,Argaman,unreviewed,False,,,False
+Vitovska,3,Vitovska,unreviewed,False,,,False
+Tinta del Toro,3,Tempranillo,grape,False,red,still,True
+Rufete,3,Rufete,unreviewed,False,,,False
+Ugni Blanc,3,Trebbiano,grape,False,white,still,True
+Alvarelhão,3,Alvarelhão,unreviewed,False,,,False
+Poulsard,3,Poulsard,unreviewed,False,,,False
+Muscatel,3,Muscatel,unreviewed,False,,,False
+Viognier-Grenache Blanc,3,,blend,True,white,still,False
+Emir,3,Emir,unreviewed,False,,,False
+Malbec-Cabernet,3,,blend,True,red,still,False
+Kadarka,3,Kadarka,unreviewed,False,,,False
+Incrocio Manzoni,3,Incrocio Manzoni,unreviewed,False,,,False
+Rivaner,3,Rivaner,unreviewed,False,,,False
+Romorantin,3,Romorantin,unreviewed,False,,,False
+Malvasia-Viura,3,,blend,True,white,still,False
+Rebula,3,Rebula,unreviewed,False,,,False
+Syrah-Cabernet Franc,3,,blend,True,red,still,False
+Azal,3,Azal,unreviewed,False,,,False
+Airen,3,Airen,unreviewed,False,,,False
+Erbaluce,3,Erbaluce,unreviewed,False,,,False
+Abouriou,3,Abouriou,unreviewed,False,,,False
+Pinot Noir-Syrah,3,,blend,True,red,still,False
+Nielluciu,3,Nielluciu,unreviewed,False,,,False
+Garnacha-Monastrell,3,,blend,True,red,still,False
+Moscatel de Alejandría,3,Moscatel de Alejandría,unreviewed,False,,,False
+Tinta Francisca,3,Tinta Francisca,unreviewed,False,,,False
+Zlahtina,3,Zlahtina,unreviewed,False,,,False
+Syrah-Grenache-Viognier,3,,blend,True,red,still,False
+Gouveio,3,Gouveio,unreviewed,False,,,False
+Canaiolo,3,Canaiolo,unreviewed,False,,,False
+Elbling,3,Elbling,unreviewed,False,,,False
+Malbec Blend,3,,blend,True,red,still,False
+Rabigato,3,Rabigato,unreviewed,False,,,False
+Cabernet Sauvignon Grenache,3,Cabernet Sauvignon Grenache,unreviewed,False,,,False
+Cayuga,3,Cayuga,unreviewed,False,,,False
+Tinta Negra Mole,3,Tinta Negra Mole,unreviewed,False,,,False
+Malbec-Tempranillo,3,,blend,True,red,still,False
+Sirica,3,Sirica,unreviewed,False,,,False
+Apple,3,Apple,unreviewed,False,,,False
+Feteasca,3,Feteasca,unreviewed,False,,,False
+Sercial,3,Sercial,unreviewed,False,,,False
+Colorino,3,Colorino,unreviewed,False,,,False
+Chardonnay-Albariño,3,,blend,True,white,still,False
+Shiraz-Mourvèdre,3,,blend,True,red,still,False
+Shiraz-Pinotage,3,,blend,True,red,still,False
+Trebbiano-Malvasia,3,,blend,True,white,still,False
+Garnacha-Graciano,3,,blend,True,red,still,False
+Angevine,3,Angevine,unreviewed,False,,,False
+Tinta Miúda,2,Tinta Miúda,unreviewed,False,,,False
+Papaskarasi,2,Papaskarasi,unreviewed,False,,,False
+Merlot-Argaman,2,,blend,True,red,still,False
+Cabernet Moravia,2,Cabernet Moravia,unreviewed,False,,,False
+Torbato,2,Torbato,unreviewed,False,,,False
+Syrah-Petit Verdot,2,,blend,True,red,still,False
+País,2,País,unreviewed,False,,,False
+Freisa,2,Freisa,unreviewed,False,,,False
+Trousseau Gris,2,Trousseau Gris,unreviewed,False,,,False
+Sacy,2,Sacy,unreviewed,False,,,False
+Tinta del Pais,2,Tempranillo,grape,False,red,still,True
+Treixadura,2,Treixadura,unreviewed,False,,,False
+Viura-Verdejo,2,,blend,True,white,still,False
+Bombino Bianco,2,Bombino Bianco,unreviewed,False,,,False
+Pigato,2,Pigato,unreviewed,False,,,False
+Shiraz-Cabernet,2,,blend,True,red,still,False
+Malbec-Petit Verdot,2,,blend,True,red,still,False
+Grignolino,2,Grignolino,unreviewed,False,,,False
+Chardonnay-Pinot Gris,2,,blend,True,white,still,False
+Marawi,2,Marawi,unreviewed,False,,,False
+Baga-Touriga Nacional,2,,blend,True,red,still,False
+Rosenmuskateller,2,Rosenmuskateller,unreviewed,False,,,False
+Touriga,2,Touriga,unreviewed,False,,,False
+Madeleine Angevine,2,Madeleine Angevine,unreviewed,False,,,False
+Mavroudi,2,Mavroudi,unreviewed,False,,,False
+Pinot Blanc-Pinot Noir,2,,blend,True,red,still,False
+Xynisteri,2,Xynisteri,unreviewed,False,,,False
+Sauvignon Musqué,2,Sauvignon Musqué,unreviewed,False,,,False
+Doña Blanca,2,Doña Blanca,unreviewed,False,,,False
+Lambrusco Salamino,2,Lambrusco Salamino,unreviewed,False,,,False
+Marquette,2,Marquette,unreviewed,False,,,False
+Vespolina,2,Vespolina,unreviewed,False,,,False
+Rebo,2,Rebo,unreviewed,False,,,False
+Tempranillo-Malbec,2,,blend,True,red,still,False
+Tamjanika,2,Tamjanika,unreviewed,False,,,False
+Macabeo-Moscatel,2,,blend,True,white,still,False
+Cariñena-Garnacha,2,,blend,True,red,still,False
+Plyto,2,Plyto,unreviewed,False,,,False
+Çalkarası,2,Çalkarası,unreviewed,False,,,False
+Moscatel Graúdo,2,Moscatel Graúdo,unreviewed,False,,,False
+Rara Neagra,2,Rara Neagra,unreviewed,False,,,False
+Malvasia di Candia,2,Malvasia di Candia,unreviewed,False,,,False
+Malvar,2,Malvar,unreviewed,False,,,False
+Vespaiolo,2,Vespaiolo,unreviewed,False,,,False
+Souzao,2,Souzao,unreviewed,False,,,False
+Orangetraube,2,Orangetraube,unreviewed,False,,,False
+Žilavka,2,Žilavka,unreviewed,False,,,False
+Listán Negro,2,Listán Negro,unreviewed,False,,,False
+Muscadine,2,Muscadine,unreviewed,False,,,False
+Grolleau,2,Grolleau,unreviewed,False,,,False
+Carignan-Syrah,2,,blend,True,red,still,False
+Cabernet-Shiraz,2,,blend,True,red,still,False
+Gragnano,2,Gragnano,unreviewed,False,,,False
+Garnacha Blend,2,,blend,True,red,still,True
+Chardonnay Weissburgunder,2,Chardonnay Weissburgunder,unreviewed,False,,,False
+Merlot-Shiraz,2,,blend,True,red,still,False
+Cabernet Pfeffer,2,Cabernet Pfeffer,unreviewed,False,,,False
+Roviello,2,Roviello,unreviewed,False,,,False
+Yapincak,2,Yapincak,unreviewed,False,,,False
+Mandilaria,2,Mandilaria,unreviewed,False,,,False
+Saperavi-Merlot,2,,blend,True,red,still,False
+Xinisteri,2,Xinisteri,unreviewed,False,,,False
+Tămâioasă Românească,2,Tămâioasă Românească,unreviewed,False,,,False
+Black Monukka,2,Black Monukka,unreviewed,False,,,False
+Merlot-Grenache,2,,blend,True,red,still,False
+Tempranillo-Syrah,2,,blend,True,red,still,False
+Gelber Traminer,2,Gelber Traminer,unreviewed,False,,,False
+Moscato Rosa,2,Moscato Rosa,unreviewed,False,,,False
+Chelois,2,Chelois,unreviewed,False,,,False
+Monastrell-Petit Verdot,2,,blend,True,red,still,False
+Blatina,2,Blatina,unreviewed,False,,,False
+Chancellor,2,Chancellor,unreviewed,False,,,False
+Picapoll,2,Picapoll,unreviewed,False,,,False
+Grenache Gris,2,Grenache Gris,unreviewed,False,,,False
+Garnacha-Cabernet,2,,blend,True,red,still,False
+Cabernet Franc-Lemberger,2,,blend,True,red,still,False
+Parraleta,2,Parraleta,unreviewed,False,,,False
+Roscetto,2,Roscetto,unreviewed,False,,,False
+Trollinger,2,Trollinger,unreviewed,False,,,False
+Petite Syrah,2,Petite Sirah,grape,False,red,still,True
+Prokupac,2,Prokupac,unreviewed,False,,,False
+Petroulianos,2,Petroulianos,unreviewed,False,,,False
+Királyleányka,2,Királyleányka,unreviewed,False,,,False
+Cserszegi Fűszeres,2,Cserszegi Fűszeres,unreviewed,False,,,False
+Meoru,2,Meoru,unreviewed,False,,,False
+Lacrima,2,Lacrima,unreviewed,False,,,False
+Pineau d'Aunis,2,Pineau d'Aunis,unreviewed,False,,,False
+St. George,2,St. George,unreviewed,False,,,False
+Malmsey,2,Malmsey,unreviewed,False,,,False
+Muscadet,2,Muscadet,unreviewed,False,,,False
+Früburgunder,1,Früburgunder,unreviewed,False,,,False
+Cesanese,1,Cesanese,unreviewed,False,,,False
+Kinali Yapincak,1,Kinali Yapincak,unreviewed,False,,,False
+Albanello,1,Albanello,unreviewed,False,,,False
+Ojaleshi,1,Ojaleshi,unreviewed,False,,,False
+Morava,1,Morava,unreviewed,False,,,False
+Carcajolu,1,Carcajolu,unreviewed,False,,,False
+Loureiro-Arinto,1,,blend,True,white,still,False
+Cercial,1,Cercial,unreviewed,False,,,False
+Kangoun,1,Kangoun,unreviewed,False,,,False
+Karasakiz,1,Karasakiz,unreviewed,False,,,False
+Diamond,1,Diamond,unreviewed,False,,,False
+Ekigaïna,1,Ekigaïna,unreviewed,False,,,False
+Tempranillo-Tannat,1,,blend,True,red,still,False
+Barbera-Nebbiolo,1,,blend,True,red,still,False
+Piquepoul Blanc,1,Piquepoul Blanc,unreviewed,False,,,False
+Sauvignon-Sémillon,1,,blend,True,white,still,False
+Verdil,1,Verdil,unreviewed,False,,,False
+Forcallà,1,Forcallà,unreviewed,False,,,False
+Cabernet Sauvignon-Barbera,1,,blend,True,red,still,False
+Viognier-Gewürztraminer,1,,blend,True,white,still,False
+Prunelard,1,Prunelard,unreviewed,False,,,False
+Gros Plant,1,Gros Plant,unreviewed,False,,,False
+Tinta Cao,1,Tinta Cao,unreviewed,False,,,False
+Groppello,1,Groppello,unreviewed,False,,,False
+Irsai Oliver,1,Irsai Oliver,unreviewed,False,,,False
+Zelen,1,Zelen,unreviewed,False,,,False
+Tsolikouri,1,Tsolikouri,unreviewed,False,,,False
+Pinot Gris-Gewürztraminer,1,,blend,True,white,still,False
+Tinto Velasco,1,Tinto Velasco,unreviewed,False,,,False
+Terrantez,1,Terrantez,unreviewed,False,,,False
+Graševina,1,Graševina,unreviewed,False,,,False
+Thrapsathiri,1,Thrapsathiri,unreviewed,False,,,False
+Cococciola,1,Cococciola,unreviewed,False,,,False
+Blauburgunder,1,Pinot Noir,grape,False,red,still,True
+Bacchus,1,Bacchus,unreviewed,False,,,False
+Syrah-Malbec,1,,blend,True,red,still,False
+Sideritis,1,Sideritis,unreviewed,False,,,False
+Moschofilero-Chardonnay,1,,blend,True,white,still,False
+Paralleda,1,Paralleda,unreviewed,False,,,False
+Maria Gomes,1,Maria Gomes,unreviewed,False,,,False
+Molinara,1,Molinara,unreviewed,False,,,False
+Verdosilla,1,Verdosilla,unreviewed,False,,,False
+Malbec-Carménère,1,,blend,True,red,still,False
+Biancolella,1,Biancolella,unreviewed,False,,,False
+Aidani,1,Aidani,unreviewed,False,,,False
+Riesling-Chardonnay,1,,blend,True,white,still,False
+Portuguiser,1,Portuguiser,unreviewed,False,,,False
+Pinotage-Merlot,1,,blend,True,red,still,False
+Maria Gomes-Bical,1,,blend,True,,still,False
+Bombino Nero,1,Bombino Nero,unreviewed,False,,,False
+Chardonnay-Riesling,1,,blend,True,white,still,False
+Malagouzia-Chardonnay,1,,blend,True,,still,False
+Mavrotragano,1,Mavrotragano,unreviewed,False,,,False
+Frankovka,1,Frankovka,unreviewed,False,,,False
+Shiraz-Roussanne,1,,blend,True,red,still,False
+Schwartzriesling,1,Schwartzriesling,unreviewed,False,,,False
+Petit Meslier,1,Petit Meslier,unreviewed,False,,,False
+Vidadillo,1,Vidadillo,unreviewed,False,,,False
+Misket,1,Misket,unreviewed,False,,,False
+Other,1,Other,unreviewed,False,,,False
+Folle Blanche,1,Folle Blanche,unreviewed,False,,,False
+Tamianka,1,Tamianka,unreviewed,False,,,False
+Sauvignonasse,1,Sauvignonasse,unreviewed,False,,,False
+Meseguera,1,Meseguera,unreviewed,False,,,False
+Pinot Blanc-Viognier,1,,blend,True,white,still,False
+Teroldego Rotaliano,1,Teroldego Rotaliano,unreviewed,False,,,False
+Biancu Gentile,1,Biancu Gentile,unreviewed,False,,,False
+Sauvignon Blanc-Sauvignon Gris,1,,blend,True,white,still,False
+Albarossa,1,Albarossa,unreviewed,False,,,False
+Ryzlink Rýnský,1,Ryzlink Rýnský,unreviewed,False,,,False
+Vranac,1,Vranac,unreviewed,False,,,False
+Chardonel,1,Chardonel,unreviewed,False,,,False
+Silvaner-Traminer,1,,blend,True,white,still,False
+Uvalino,1,Uvalino,unreviewed,False,,,False
+Merseguera-Sauvignon Blanc,1,,blend,True,,still,False
+Cabernet-Malbec,1,,blend,True,red,still,False
+Vermentino Nero,1,Vermentino Nero,unreviewed,False,,,False
+Tinta Amarela,1,Tinta Amarela,unreviewed,False,,,False
+Sauvignon Blanc-Assyrtiko,1,,blend,True,white,still,False
+Roussanne-Grenache Blanc,1,,blend,True,white,still,False
+Biancale,1,Biancale,unreviewed,False,,,False
+Syrah-Bonarda,1,,blend,True,red,still,False
+Franconia,1,Franconia,unreviewed,False,,,False
+Vital,1,Vital,unreviewed,False,,,False
+Espadeiro,1,Espadeiro,unreviewed,False,,,False
+Pinot Grigio-Sauvignon Blanc,1,,blend,True,white,still,False
+Karalahna,1,Karalahna,unreviewed,False,,,False
+Valvin Muscat,1,Valvin Muscat,unreviewed,False,,,False
+Roditis-Moschofilero,1,,blend,True,white,still,False
+St. Vincent,1,St. Vincent,unreviewed,False,,,False
+Premsal,1,Premsal,unreviewed,False,,,False
+Jampal,1,Jampal,unreviewed,False,,,False
+Blauburger,1,Blauburger,unreviewed,False,,,False
+Tinta Madeira,1,Tinta Madeira,unreviewed,False,,,False
+Centesimino,1,Centesimino,unreviewed,False,,,False
+Trajadura,1,Trajadura,unreviewed,False,,,False
+Merlot-Petite Verdot,1,,blend,True,red,still,False
+Ramisco,1,Ramisco,unreviewed,False,,,False
+Catalanesca,1,Catalanesca,unreviewed,False,,,False
+Garnacha-Cariñena,1,,blend,True,red,still,False
+Gamza,1,Gamza,unreviewed,False,,,False
+Mavrokalavryta,1,Mavrokalavryta,unreviewed,False,,,False
+Babosa Negro,1,Babosa Negro,unreviewed,False,,,False
+Tintilia,1,Tintilia,unreviewed,False,,,False
+Dafni,1,Dafni,unreviewed,False,,,False
+Petit Courbu,1,Petit Courbu,unreviewed,False,,,False
+Kotsifali,1,Kotsifali,unreviewed,False,,,False
+Moscato di Noto,1,Moscato di Noto,unreviewed,False,,,False
+Torontel,1,Torontel,unreviewed,False,,,False
+Otskhanuri Sapere,1,Otskhanuri Sapere,unreviewed,False,,,False
+Viognier-Valdiguié,1,,blend,True,,still,False
+Tsapournakos,1,Tsapournakos,unreviewed,False,,,False
+Francisa,1,Francisa,unreviewed,False,,,False
+Kuntra,1,Kuntra,unreviewed,False,,,False
+Pignolo,1,Pignolo,unreviewed,False,,,False
+Caprettone,1,Caprettone,unreviewed,False,,,False
+Ondenc,1,Ondenc,unreviewed,False,,,False
+Athiri,1,Athiri,unreviewed,False,,,False
+Bobal-Cabernet Sauvignon,1,,blend,True,red,still,False
+Malvazija,1,Malvazija,unreviewed,False,,,False
+Ruen,1,Ruen,unreviewed,False,,,False
+Kallmet,1,Kallmet,unreviewed,False,,,False
+Pied de Perdrix,1,Pied de Perdrix,unreviewed,False,,,False
+Pinela,1,Pinela,unreviewed,False,,,False
+Steen,1,Steen,unreviewed,False,,,False
+Koshu,1,Koshu,unreviewed,False,,,False
+Enantio,1,Enantio,unreviewed,False,,,False
+Tai,1,Tai,unreviewed,False,,,False
+Segalin,1,Segalin,unreviewed,False,,,False
+Albarín,1,Albarín,unreviewed,False,,,False
+Cabernet Sauvignon and Tinta Roriz,1,,blend,True,red,still,False
+Moscofilero,1,Moscofilero,unreviewed,False,,,False
+Bukettraube,1,Bukettraube,unreviewed,False,,,False
+Tocai Rosso,1,Tocai Rosso,unreviewed,False,,,False
+Crespiello,1,Crespiello,unreviewed,False,,,False
+Cabernet Franc-Tempranillo,1,,blend,True,red,still,False
+Pelaverga Piccolo,1,Pelaverga Piccolo,unreviewed,False,,,False
+Maréchal Foch,1,Maréchal Foch,unreviewed,False,,,False
+Durello,1,Durello,unreviewed,False,,,False
+Malvoisie,1,Malvoisie,unreviewed,False,,,False
+Terret Blanc,1,Terret Blanc,unreviewed,False,,,False
+Macabeo-Gewürztraminer,1,,blend,True,white,still,False
+Sarba,1,Sarba,unreviewed,False,,,False
+Pardina,1,Pardina,unreviewed,False,,,False
+Shiraz-Merlot,1,,blend,True,red,still,False
+Chardonelle,1,Chardonelle,unreviewed,False,,,False
+Pinot Grigio-Chardonnay,1,,blend,True,white,still,False
+Viura-Sauvignon Blanc,1,,blend,True,white,still,False
+Huxelrebe,1,Huxelrebe,unreviewed,False,,,False
+Chardonnay-Pinot Grigio,1,,blend,True,white,still,False
+Moristel,1,Moristel,unreviewed,False,,,False
+Carnelian,1,Carnelian,unreviewed,False,,,False
