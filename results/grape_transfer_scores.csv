@@ -1,0 +1,89 @@
+kind,color,grape_a,grape_b,trained_in,tested_in,n_train_per_side,n_val_per_side,home_accuracy,travel_accuracy,local_accuracy,cost_of_moving,same_top_reviewer,reviews_used
+far,red,Cabernet Sauvignon,Malbec,Argentina,US,210,45,0.629,0.549,0.753,0.204,False,all
+far,red,Cabernet Sauvignon,Malbec,US,Argentina,210,45,0.753,0.511,0.629,0.118,False,all
+far,red,Cabernet Sauvignon,Merlot,Chile,US,210,45,0.687,0.571,0.631,0.06,False,all
+far,red,Cabernet Sauvignon,Merlot,US,Chile,210,45,0.631,0.567,0.687,0.12,False,all
+far,red,Cabernet Sauvignon,Pinot Noir,Chile,US,210,45,0.793,0.718,0.851,0.133,False,all
+far,red,Cabernet Sauvignon,Pinot Noir,US,Chile,210,45,0.851,0.658,0.793,0.136,False,all
+far,red,Cabernet Sauvignon,Syrah,Australia,Chile,210,45,0.769,0.589,0.716,0.127,False,all
+far,red,Cabernet Sauvignon,Syrah,Australia,US,210,45,0.769,0.653,0.724,0.071,False,all
+far,red,Cabernet Sauvignon,Syrah,Chile,Australia,210,45,0.716,0.649,0.769,0.12,False,all
+far,red,Cabernet Sauvignon,Syrah,Chile,US,210,45,0.716,0.618,0.724,0.107,False,all
+far,red,Cabernet Sauvignon,Syrah,US,Australia,210,45,0.724,0.64,0.769,0.129,False,all
+far,red,Cabernet Sauvignon,Syrah,US,Chile,210,45,0.724,0.578,0.716,0.138,False,all
+far,white,Chardonnay,Gewürztraminer,France,US,210,45,0.933,0.762,0.869,0.107,False,all
+far,white,Chardonnay,Gewürztraminer,US,France,210,45,0.869,0.824,0.933,0.109,False,all
+near,white,Chardonnay,Pinot Gris,France,Italy,210,45,0.88,0.458,0.756,0.298,False,all
+far,white,Chardonnay,Pinot Gris,France,US,210,45,0.88,0.622,0.804,0.182,False,all
+near,white,Chardonnay,Pinot Gris,Italy,France,210,45,0.756,0.598,0.88,0.282,False,all
+far,white,Chardonnay,Pinot Gris,Italy,US,210,45,0.756,0.676,0.804,0.129,False,all
+far,white,Chardonnay,Pinot Gris,US,France,210,45,0.804,0.587,0.88,0.293,False,all
+far,white,Chardonnay,Pinot Gris,US,Italy,210,45,0.804,0.673,0.756,0.082,False,all
+far,white,Chardonnay,Riesling,France,US,210,45,0.853,0.662,0.86,0.198,False,all
+far,white,Chardonnay,Riesling,US,France,210,45,0.86,0.771,0.853,0.082,False,all
+far,white,Chardonnay,Sauvignon Blanc,Chile,France,210,45,0.838,0.609,0.747,0.138,False,all
+far,white,Chardonnay,Sauvignon Blanc,Chile,Italy,210,45,0.838,0.778,0.827,0.049,False,all
+far,white,Chardonnay,Sauvignon Blanc,Chile,US,210,45,0.838,0.74,0.809,0.069,False,all
+far,white,Chardonnay,Sauvignon Blanc,France,Chile,210,45,0.747,0.687,0.838,0.151,False,all
+near,white,Chardonnay,Sauvignon Blanc,France,Italy,210,45,0.747,0.673,0.827,0.153,False,all
+far,white,Chardonnay,Sauvignon Blanc,France,US,210,45,0.747,0.644,0.809,0.164,False,all
+far,white,Chardonnay,Sauvignon Blanc,Italy,Chile,210,45,0.827,0.738,0.838,0.1,False,all
+near,white,Chardonnay,Sauvignon Blanc,Italy,France,210,45,0.827,0.604,0.747,0.142,False,all
+far,white,Chardonnay,Sauvignon Blanc,Italy,US,210,45,0.827,0.698,0.809,0.111,False,all
+far,white,Chardonnay,Sauvignon Blanc,US,Chile,210,45,0.809,0.727,0.838,0.111,False,all
+far,white,Chardonnay,Sauvignon Blanc,US,France,210,45,0.809,0.64,0.747,0.107,False,all
+far,white,Chardonnay,Sauvignon Blanc,US,Italy,210,45,0.809,0.747,0.827,0.08,False,all
+far,white,Gewürztraminer,Pinot Gris,France,US,210,45,0.771,0.678,0.796,0.118,False,all
+far,white,Gewürztraminer,Pinot Gris,US,France,210,45,0.796,0.707,0.771,0.064,False,all
+far,white,Gewürztraminer,Riesling,France,US,210,45,0.902,0.64,0.776,0.136,False,all
+far,white,Gewürztraminer,Riesling,US,France,210,45,0.776,0.744,0.902,0.158,False,all
+far,white,Gewürztraminer,Sauvignon Blanc,France,US,210,45,0.947,0.742,0.836,0.093,False,all
+far,white,Gewürztraminer,Sauvignon Blanc,US,France,210,45,0.836,0.844,0.947,0.102,False,all
+far,red,Grenache,Tempranillo,Spain,US,210,45,0.682,0.627,0.691,0.064,False,all
+far,red,Grenache,Tempranillo,US,Spain,210,45,0.691,0.664,0.682,0.018,False,all
+far,red,Malbec,Pinot Noir,France,US,210,45,0.798,0.676,0.807,0.131,False,all
+far,red,Malbec,Pinot Noir,US,France,210,45,0.807,0.644,0.798,0.153,False,all
+far,red,Malbec,Syrah,France,US,210,45,0.922,0.507,0.633,0.127,False,all
+far,red,Malbec,Syrah,US,France,210,45,0.633,0.507,0.922,0.416,False,all
+far,red,Merlot,Pinot Noir,Chile,US,210,45,0.742,0.638,0.758,0.12,False,all
+far,red,Merlot,Pinot Noir,US,Chile,210,45,0.758,0.602,0.742,0.14,False,all
+far,red,Merlot,Syrah,Chile,US,210,45,0.744,0.624,0.709,0.084,False,all
+far,red,Merlot,Syrah,US,Chile,210,45,0.709,0.636,0.744,0.109,False,all
+far,white,Pinot Gris,Riesling,France,US,210,45,0.849,0.471,0.742,0.271,False,all
+far,white,Pinot Gris,Riesling,US,France,210,45,0.742,0.609,0.849,0.24,False,all
+near,white,Pinot Gris,Sauvignon Blanc,France,Italy,210,45,0.904,0.576,0.816,0.24,False,all
+far,white,Pinot Gris,Sauvignon Blanc,France,US,210,45,0.904,0.618,0.731,0.113,False,all
+near,white,Pinot Gris,Sauvignon Blanc,Italy,France,210,45,0.816,0.571,0.904,0.333,False,all
+far,white,Pinot Gris,Sauvignon Blanc,Italy,US,210,45,0.816,0.609,0.731,0.122,False,all
+far,white,Pinot Gris,Sauvignon Blanc,US,France,210,45,0.731,0.598,0.904,0.307,False,all
+far,white,Pinot Gris,Sauvignon Blanc,US,Italy,210,45,0.731,0.7,0.816,0.116,False,all
+far,red,Pinot Noir,Syrah,Chile,France,210,45,0.802,0.533,0.951,0.418,False,all
+far,red,Pinot Noir,Syrah,Chile,US,210,45,0.802,0.713,0.789,0.076,False,all
+far,red,Pinot Noir,Syrah,France,Chile,210,45,0.951,0.547,0.802,0.256,False,all
+far,red,Pinot Noir,Syrah,France,US,210,45,0.951,0.584,0.789,0.204,False,all
+far,red,Pinot Noir,Syrah,US,Chile,210,45,0.789,0.722,0.802,0.08,False,all
+far,red,Pinot Noir,Syrah,US,France,210,45,0.789,0.562,0.951,0.389,False,all
+far,white,Riesling,Sauvignon Blanc,France,US,210,45,0.876,0.609,0.858,0.249,False,all
+far,white,Riesling,Sauvignon Blanc,US,France,210,45,0.858,0.72,0.876,0.156,False,all
+far,red,Cabernet Sauvignon,Malbec,Argentina,US,210,45,0.644,0.524,0.682,0.158,False,named_taster
+far,red,Cabernet Sauvignon,Malbec,US,Argentina,210,45,0.682,0.491,0.644,0.153,False,named_taster
+far,red,Cabernet Sauvignon,Pinot Noir,Chile,US,210,45,0.784,0.678,0.809,0.131,False,named_taster
+far,red,Cabernet Sauvignon,Pinot Noir,US,Chile,210,45,0.809,0.687,0.784,0.098,False,named_taster
+far,white,Chardonnay,Pinot Gris,France,US,210,45,0.931,0.567,0.802,0.236,False,named_taster
+far,white,Chardonnay,Pinot Gris,US,France,210,45,0.802,0.658,0.931,0.273,False,named_taster
+far,white,Chardonnay,Riesling,France,US,210,45,0.856,0.649,0.887,0.238,False,named_taster
+far,white,Chardonnay,Riesling,US,France,210,45,0.887,0.718,0.856,0.138,False,named_taster
+far,white,Chardonnay,Sauvignon Blanc,Chile,France,210,45,0.809,0.582,0.74,0.158,False,named_taster
+far,white,Chardonnay,Sauvignon Blanc,Chile,US,210,45,0.809,0.7,0.811,0.111,False,named_taster
+far,white,Chardonnay,Sauvignon Blanc,France,Chile,210,45,0.74,0.669,0.809,0.14,False,named_taster
+far,white,Chardonnay,Sauvignon Blanc,France,US,210,45,0.74,0.629,0.811,0.182,False,named_taster
+far,white,Chardonnay,Sauvignon Blanc,US,Chile,210,45,0.811,0.738,0.809,0.071,False,named_taster
+far,white,Chardonnay,Sauvignon Blanc,US,France,210,45,0.811,0.618,0.74,0.122,False,named_taster
+far,red,Malbec,Pinot Noir,France,US,210,45,0.793,0.649,0.829,0.18,False,named_taster
+far,red,Malbec,Pinot Noir,US,France,210,45,0.829,0.598,0.793,0.196,False,named_taster
+far,white,Pinot Gris,Riesling,France,US,210,45,0.878,0.604,0.776,0.171,False,named_taster
+far,white,Pinot Gris,Riesling,US,France,210,45,0.776,0.6,0.878,0.278,False,named_taster
+far,white,Pinot Gris,Sauvignon Blanc,France,US,210,45,0.929,0.591,0.758,0.167,False,named_taster
+far,white,Pinot Gris,Sauvignon Blanc,US,France,210,45,0.758,0.673,0.929,0.256,False,named_taster
+far,white,Riesling,Sauvignon Blanc,France,US,210,45,0.864,0.596,0.849,0.253,False,named_taster
+far,white,Riesling,Sauvignon Blanc,US,France,210,45,0.849,0.72,0.864,0.144,False,named_taster

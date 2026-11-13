@@ -1,2 +1,7 @@
 winemag*
 data/
+*.db
+*.pkl
+*.parquet
+__pycache__/
+.DS_Store
