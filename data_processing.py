@@ -1,3 +1,5 @@
+from functools import lru_cache
+
 import nltk
 import pandas as pd
 from nltk.corpus import stopwords
@@ -20,7 +22,7 @@ for pkg, path in [("punkt_tab", "tokenizers/punkt_tab"), ("stopwords", "corpora/
 LEMMATIZER = WordNetLemmatizer()
 
 # common words that are used and commonly shared between each group that we found in our data analysis notebook
-WINE_WORDS = {"wine", "flavor", "aroma", "palate", "finish", "drink", "note", "show", "acidity"}
+WINE_WORDS = {"wine", "flavor", "aroma", "palate", "finish", "drink", "note", "show"}
 
 # these are words that are within the style names that we want to avoid getting rid of
 # sparkling / champagne / port describe the wine itself, so they stay in the reviews
@@ -29,8 +31,8 @@ KEEP = {"red", "white", "apple", "blend", "style", "other", "de", "di", "del", "
         "sparkling", "champagne", "port"}
 
 # short names for grapes that aren't part of any variety name (zin = 31% of Zinfandel reviews, cab = 14% of Cabernet)
-# varietyname is the placeholder dataset_cleaning puts where it masked a grape name
-NICKNAMES = {"cab", "zin", "chard", "sauv", "gewürz", "gewurz", "grüner", "gruner", "varietyname"}
+# varietyname and placename are the placeholders dataset_cleaning puts where it masked a name
+NICKNAMES = {"cab", "zin", "chard", "sauv", "gewürz", "gewurz", "grüner", "gruner", "varietyname", "placename"}
 
 def load_reviews(path = INPUT_PATH):
     """
@@ -50,8 +52,12 @@ def load_style_map(path=STYLE_GROUPS_PATH):
 
 # ------- Applying the Text Cleaning -------
 # Essentially all of these are fixing up all of the tokenization and descriptions similar to how we did it in data analysis
+@lru_cache(maxsize=None)
+def lemmatize(word):
+    return LEMMATIZER.lemmatize(word)
+
 def base_tokens(text):
-    return [LEMMATIZER.lemmatize(t) for t in word_tokenize(text.lower()) if t.isalpha()]
+    return [lemmatize(t) for t in word_tokenize(text.lower()) if t.isalpha()]
 
 def name_words(names):
     """Turn variety names into the same token form as the reviews."""
@@ -63,9 +69,50 @@ def build_stopwords(style_map):
     variety_words = name_words(style_map["variety"]) - KEEP
     return english | WINE_WORDS | variety_words | NICKNAMES
 
+def hyphenated_word(token, part_stops):
+    """
+    full-bodied -> full_bodied. Stays one word so off-dry doesn't get counted as dry.
+    Grape names and placeholders drop out (varietyname-based -> based).
+    """
+    parts = [p for p in token.split("-") if p not in part_stops]
+    if not parts:
+        return None
+    parts[-1] = lemmatize(parts[-1])
+    return "_".join(parts)
 
-def remove_stops(tokens, stops):
-    return [t for t in tokens if t not in stops]
+def word_runs(text, stops, part_stops=frozenset()):
+    """
+    Splits a review into runs of words that actually sit next to each other. A stop word or
+    punctuation ends the run, so "cherry and oak" gives ["cherry"], ["oak"] and never the phrase "cherry oak".
+
+    Stop words are checked before lemmatizing too, otherwise has -> ha, does -> doe, was -> wa.
+    """
+    runs, run = [], []
+    for token in word_tokenize(text.lower()):
+        word = None
+        if token.isalpha():
+            if token not in stops:
+                word = lemmatize(token)
+                word = None if word in stops else word
+        elif "-" in token and all(p.isalpha() for p in token.split("-") if p):
+            word = hyphenated_word(token, part_stops)
+
+        if word:
+            run.append(word)
+        elif run:
+            runs.append(run)
+            run = []
+    if run:
+        runs.append(run)
+    return runs
+
+def flatten(runs):
+    return [word for run in runs for word in run]
+
+def with_bigrams(runs):
+    """All the single words plus real bigrams, joined so TfidfVectorizer sees each as one word: black_cherry"""
+    bigrams = [f"{a}_{b}" for run in runs for a, b in zip(run, run[1:])]
+    return " ".join(flatten(runs) + bigrams)
 
 def leakage_report(df, style_map, col):
     """% of each style group's reviews that mention one of its OWN variety words....."""
@@ -82,17 +129,24 @@ def process():
 
     english = set(stopwords.words("english"))
     all_stops = build_stopwords(style_map)
+    part_stops = all_stops - english # english words stay inside a hyphenated word (off-dry, well-made)
     print(f"Stopwords: {len(all_stops):,} total")
 
     print("Tokenizing (takes a few minutes)...")
+    def runs_of(col):
+        return df[col].fillna("").apply(word_runs, stops=all_stops, part_stops=part_stops)
+
+    masked_runs = runs_of("description_masked")
+
     # tokens_raw is the original text (to show the leakage before), tokens is the masked text with every stop word removed
-    df["tokens_raw"] = df["description"].apply(base_tokens).apply(remove_stops, stops=english)
-    df["tokens"] = df["description_masked"].apply(base_tokens).apply(remove_stops, stops=all_stops)
+    df["tokens_raw"] = df["description"].apply(word_runs, stops=english).apply(flatten)
+    df["tokens"] = masked_runs.apply(flatten)
     df["clean_text"] = df["tokens"].str.join(" ")
-    df["clean_designation"] = (df["designation"].fillna("")
-                                 .apply(base_tokens)
-                                 .apply(remove_stops, stops=all_stops)
-                                 .str.join(" "))
+    df["clean_designation"] = runs_of("designation").apply(flatten).str.join(" ")
+
+    # use these with TfidfVectorizer(ngram_range=(1, 1)), the bigrams are already in the text
+    df["clean_ngrams"] = masked_runs.apply(with_bigrams) # for predicting the wine, place names are still in
+    df["descriptor_ngrams"] = runs_of("description_no_place").apply(with_bigrams) # for explaining the differences between wines
 
     report = pd.concat([leakage_report(df, style_map, "tokens_raw"),
                         leakage_report(df, style_map, "tokens")], axis=1)
